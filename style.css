@@ -48,7 +48,8 @@ nav {
     top: 0;
     display: flex;
     justify-content: space-between;
-    margin: 0 20px 0 15px;
+    margin: 0 20px 20px 15px;
+    background: #fff;
 }
 
 nav > svg {
@@ -65,7 +66,7 @@ nav > .logo {
     display: inline-block;
 }
 
-.nav-list > .home-button > a{
+.nav-list > .current-button > a{
     color: #09a8ef ;
 }
 
@@ -83,19 +84,108 @@ nav > .logo {
     align-items: center;
 }
 
-
-main {
-    height: 400px;
+.prevent-title, .symptoms-title {
+    color: #09a8ef;
+    font-size: 44px;
+    font-family: "Nexa-Black";
+    text-align: center;
+    letter-spacing: 3px;
+    margin-block: 35px;
 }
 
+.upper-main, .prevent-section, .symptoms-section  {
+    display: flex;
+    margin-inline: 45px;
+}
 
+.upper-main .definition-container {
+    flex-grow: 1;
+}
+.prevent-section .definition-container, .symptoms-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.left-container {
+    margin-right: 75px;
+}
+
+.right-container {
+    margin-left: 75px;
+}
+
+.right-container p, .left-container p {
+    padding-right: 55px;
+}
+
+.upper-main h1 {
+    text-transform: uppercase;
+    font-family: "Nexa-Black";
+    font-size: 66px;
+}
+
+.upper-main h1 span {
+    color: #09a8ef;
+}
+
+.upper-main h3 {
+    font-size: 32px;
+    font-family: "Nexa";
+}
+
+.under-text {
+    margin-block: 22px;
+    font-size: 20px;
+    font-family: "Nexa-Light";
+    color: #212B36;
+}
+
+.upper-main .prevent-button{
+    display: inline-block;
+    padding: 28px 15%;
+    border: none;
+    border-radius: 20px;
+    font-size: 26px;
+    cursor: pointer;
+    color: #fff;
+    background-color: #09a8ef;
+}
+
+.prevent-section:last-of-type {
+    margin-bottom: 35px;
+}
+
+.upper-main > img {
+    width: 35%;
+}
+
+.prevent-section > .prevention-img {
+    height: 300px;
+}
+
+.symptoms-section .symptoms-img {
+    height: 200px;
+    margin-bottom: 50px;
+}
+
+.prevent-section h3 , .symptoms-section h3 {
+    font-size: 32px;
+    font-family: "Nexa-Bold";
+}
+
+.center-text {
+    text-align: center;
+}
+
+.center-text:last-of-type {
+    margin-bottom: 60px;
+}
 
 footer {
-    position: fixed;
     bottom: 0;
     width: 100%;
-    padding: 32px 0 48px;
-    margin-top: auto;
+    padding-block: 32px 8px;
     background: #09a8ef;
 }
 
