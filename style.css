@@ -84,7 +84,7 @@ nav > .logo {
     align-items: center;
 }
 
-.prevent-title, .symptoms-title {
+.prevent-title, .symptoms-title, .hospitals-title, .hotline, .hospitals-black-bottom {
     color: #09a8ef;
     font-size: 44px;
     font-family: "Nexa-Black";
@@ -180,6 +180,74 @@ nav > .logo {
 
 .center-text:last-of-type {
     margin-bottom: 60px;
+}
+
+.hospitals-list {
+    display: flex;
+    text-align: center; 
+    margin: 0 75px 50px 75px;
+    padding: 35px 20px 35px 20px ;
+    border-radius: 20px;
+    background: #F7FBFF;
+}
+
+.hospitals-list ul {
+    flex-grow: 1;
+}
+
+.hospitals-list ul li {
+    font-size: 22px;
+    padding-bottom: 15px;
+}
+
+.hospitals-list ul li:nth-child(2) {
+    margin-top: 25px;
+}
+
+.hospitals-list ul li:last-child {
+    padding-bottom: 0;
+}
+
+.hospitals-list .list-title {
+    font-family: "Nexa-Bold";
+    font-size: 28px;
+    color: #09a8ef;
+    border-bottom: 4px solid #09A8EF;
+}
+
+.middle-list .list-title {
+    border: 0;
+    border-bottom: 4px solid #09A8EF;
+}
+
+.list-title img {
+    height: 25px;
+}
+
+.middle-list li {
+    border: 1px solid #09A8EF ;
+    border-top: 0;
+    border-bottom: 0;
+}
+
+.hospital-bottom-title {
+    margin-block: 10px !important;
+}
+
+.hotline {
+    color: #EF0909;
+    font-size: 60px;
+    margin-block: 15px;
+}
+
+.hotline img {
+    height: 42px;
+}
+
+.hospitals-black-bottom {
+    color: #000;
+    margin-top: 0;
+    margin-bottom: 75px;
 }
 
 footer {
