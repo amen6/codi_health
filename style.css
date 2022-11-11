@@ -37,6 +37,16 @@ html, body {
     box-sizing: border-box;
 }
 
+.bullelements{
+    font-size:2rem;
+    color: #000;
+}
+
+.note {
+    color: #09a8ef;
+    font-family: "Nexa-Bold";
+}
+
 a {
     cursor: pointer;
     outline: none;
@@ -77,6 +87,10 @@ nav > .logo {
     color: #000;
     letter-spacing: 1.1px;
     text-transform: uppercase;
+}
+
+main {
+    margin-inline: 50px;
 }
 
 .list-container {
@@ -152,7 +166,7 @@ nav > .logo {
     background-color: #09a8ef;
 }
 
-.prevent-section:last-of-type {
+.prevent-section {
     margin-bottom: 35px;
 }
 
@@ -160,7 +174,8 @@ nav > .logo {
     width: 35%;
 }
 
-.prevent-section > .prevention-img {
+.prevent-section  .prevention-img {
+    width: 300px;
     height: 300px;
 }
 
